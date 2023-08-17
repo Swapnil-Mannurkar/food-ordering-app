@@ -69,10 +69,10 @@ const CartProvider = (props) => {
     });
   };
 
-  const removeItemFromCartHandler = (item) => {
+  const removeItemFromCartHandler = (id) => {
     dispatchCartAction({
       type: "REMOVE",
-      item: item,
+      id: id,
     });
   };
 
