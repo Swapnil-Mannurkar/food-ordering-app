@@ -5,9 +5,7 @@ import classes from "./AvailableMeals.module.css";
 import MealItem from "./MealItem/MealItem";
 
 const AvailableMeals = () => {
-  useEffect(() => {
-    
-  }, [])
+  
 
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealItem
